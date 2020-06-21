@@ -1,0 +1,110 @@
+<html>
+		<head>
+		<title>
+			Online shop
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="styles1.css">
+		</head>
+
+		<body>
+			<div>
+				<h1> 
+					SWIMMLY +
+				</h1>
+			</div>
+			<table align="center";> 
+				<tr>
+					<th>
+						Home
+					</th>
+					<th>
+						Collections
+					</th>
+					<th>
+						Store
+					</th>
+					<th>
+						Contact us
+					</th>			
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td>
+						<img id="item-1" src="https://www.speedo.com/dw/image/v2/AARQ_PRD/on/demandware.static/-/Sites-PRODUCT-SPEEDO/default/dw8b9495cf/images/original/8-12299B344-A.jpg?sw=580&ox=0&oy=0&oimg=https%3A%2F%2Fwww.speedo.com%2Fdw%2Fimage%2Fv2%2FAARQ_PRD%2Fon%2Fdemandware.static%2F-%2FSites-PRODUCT-SPEEDO%2Fdefault%2Fdwf5fdfffc%2Fimages%2Fbadges%2FEnglish---New.png%3Fsw%3D580" >
+						<p> Boomstar Muscleback Swimsuit </p>
+						<div class="color-selector">
+							<p id="item-1-color-blue" onclick="onColorSelected(this.id)" ;> Pink </p>
+							<p>/</p>
+							<p id="item-1-color-red" onclick="onColorSelected(this.id)" ;> Red </p>	
+						</div>
+					</td>
+					<td>
+						<img src="https://etre-fort.com/wp-content/uploads/2019/06/stretchchino_front.png" >
+						<p>Stretch Chino EF-C1 Pants</p>
+						<div class="color-selector">
+							<p>Blue</p>
+							<p>/</p>
+							<p>Red</p>	
+						</div>
+					</td>
+					<td>
+						<img src="https://etre-fort.com/wp-content/uploads/2019/06/stretchchino_front.png">
+						<p>Stretch Chino EF-C1 Pants</p>
+						<div class="color-selector">
+							<p>Blue</p>
+							<p>/</p>
+							<p>Red</p>	
+						</div>
+					</td>
+					<td>
+						<img src="https://etre-fort.com/wp-content/uploads/2019/06/stretchchino_front.png">
+						<p>Stretch Chino EF-C1 Pants</p>
+						<div class="color-selector">
+							<p>Blue</p>
+							<p>/</p>
+							<p>Red</p>	
+						</div>
+					</td>
+				</tr>
+			</table>
+
+			<script>
+			function onColorSelected(id) {
+				console.log(id);
+
+				if (id == "item-1-color-blue") {
+						document.getElementById('item-1').src = "https://www.speedo.com/dw/image/v2/AARQ_PRD/on/demandware.static/-/Sites-PRODUCT-SPEEDO/default/dw8b9495cf/images/original/8-12299B344-A.jpg?sw=580&ox=0&oy=0&oimg=https%3A%2F%2Fwww.speedo.com%2Fdw%2Fimage%2Fv2%2FAARQ_PRD%2Fon%2Fdemandware.static%2F-%2FSites-PRODUCT-SPEEDO%2Fdefault%2Fdwf5fdfffc%2Fimages%2Fbadges%2FEnglish---New.png%3Fsw%3D580";
+				}
+				else if (id == "item-1-color-red") {
+					document.getElementById('item-1').src = "https://www.speedo.com/dw/image/v2/AARQ_PRD/on/demandware.static/-/Sites-PRODUCT-SPEEDO/default/dw6bb04d5b/images/original/8-12299D738-A.jpg?sw=580&ox=0&oy=0&oimg=https%3A%2F%2Fwww.speedo.com%2Fdw%2Fimage%2Fv2%2FAARQ_PRD%2Fon%2Fdemandware.static%2F-%2FSites-PRODUCT-SPEEDO%2Fdefault%2Fdwf5fdfffc%2Fimages%2Fbadges%2FEnglish---New.png%3Fsw%3D580";
+				}
+			}
+			</script>
+
+		</body>
+
+<!--
+		<td> 
+						<img src="https://etre-fort.com/wp-content/uploads/2019/06/etre-fort-shirt-flow-front.png" width="250" height="250" >
+					</td>
+					<td>
+						<img src="https://etre-fort.com/wp-content/uploads/2019/01/etrefort-beanie-classic-closed-1.png" width="250" height="250" >
+					</td>
+					<td>
+						<img src="https://etre-fort.com/wp-content/uploads/2018/10/crewneck-dame-du-lac-back.png" width="250" height="250" >
+					</td>
+
+<td>
+						T-Shirt flow
+					</td>
+					<td>
+						Beanie Classic
+					</td>
+					<td>
+						Crewneck Dame du Lac
+					</td>
+
+					-->
